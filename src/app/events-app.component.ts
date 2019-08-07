@@ -3,8 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'events-app',
   template: `
-    <nav-bar></nav-bar>
-    <h1><img src="assets/images/dev.png" alt="logo" height ="100em" />  Code Therapy</h1>
+    
+    <nav-bar><img src="assets/images/dev.png" alt="logo" height ="100em" /></nav-bar>
     <events-list></events-list>
 
   `
