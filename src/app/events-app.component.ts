@@ -2,11 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'events-app',
-  template: `
-    
+  template: `    
     <nav-bar><img src="assets/images/dev.png" alt="logo" height ="100em" /></nav-bar>
-    <events-list></events-list>
-
+    <router-outlet></router-outlet>
   `
 })
 export class EventsAppComponent {
